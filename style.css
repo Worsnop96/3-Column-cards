@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container div {
+  width: 220px;
+  height: 400px;
+  padding: 45px;
+}
+
+.card-1 {
+  background-color: #de8817;
+  color: rgb(226, 225, 223);
+}
+
+.card-2 {
+  background-color: #006970;
+  color: rgb(226, 225, 223);
+}
+
+.card-3 {
+  background-color: #004241;
+  color: rgb(226, 225, 223);
+}
+
+.container div h2 {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container div article {
+  font-size: 15px;
+  justify-content: right;
+  padding-bottom: 120px;
+}
+
+.container div a {
+  font-size: 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  border: 1px solid white;
+  color: white;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.container div .btn-1:hover {
+  color: #de8817;
+  background-color: rgb(226, 225, 223);
+  font-size: 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  border: 1px solid white;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.container div .btn-2:hover {
+  color: #006970;
+  background-color: rgb(226, 225, 223);
+  font-size: 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  border: 1px solid white;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.container div .btn-3:hover {
+  color: #004241;
+  background-color: rgb(226, 225, 223);
+  font-size: 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  border: 1px solid white;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.container-atribution {
+  margin-right: 330px;
+  margin-left: 720px;
+  justify-content: right;
+}
+
+@media (max-width: 1510px) {
+  .container-atribution {
+    display: none;
+  }
+}
